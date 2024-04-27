@@ -1,0 +1,54 @@
+/* Tree View Container */
+.tree-view-container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #e0f7fa; /* Light cyan for a soft background */
+  padding: 10px; /* Padding around the entire container */
+  border-right: 2px solid #b0bec5; /* Subtle border for separation */
+}
+
+/* Menu List Container */
+.menu-list-container {
+  list-style: none; /* No default list markers */
+  margin: 0; /* Reset default margins */
+  padding: 0; /* Reset default paddings */
+  padding-left: 15px; /* Indentation for nested items */
+}
+
+/* Menu Item */
+.menu-item {
+  display: flex;
+  flex-direction: column; /* Align children vertically */
+  width: auto;
+  padding: 5px; /* Padding around each menu item */
+}
+
+/* Icon Span for Toggle */
+.menu-item span {
+  display: inline-block; /* Ensures consistent icon display */
+  margin-right: 2px; /* Space between icon and label */
+  user-select: none; /* Prevents text selection */
+}
+
+/* Item Container */
+.item-container {
+  display: flex;
+  align-items: center; /* Align vertically */
+  justify-content: flex-start; /* Align items to the left */
+  gap: 2px; /* Space between icon and label */
+}
+
+/* Hover Effect for Menu Item */
+.item-container:hover {
+  background-color: #b2ebf2; /* Light blue for hover effect */
+  cursor: pointer; /* Indicates interactivity */
+  transition: background-color 0.6s ease; /* Smooth hover transition */
+}
+
+/* Paragraph within Item Container */
+.item-container p {
+  margin: 0; /* No extra margins */
+  padding: 2px; /* No extra paddings */
+  padding-left: 0px;
+  user-select: none; /* Disables text selection */
+}
