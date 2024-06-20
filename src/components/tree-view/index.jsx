@@ -4,7 +4,7 @@ import "./styles.css";
 export default function TreeView() {
   return (
     <div className="tree-view-container">
-      <MenuList list={Data}></MenuList>
+      <MenuList list={Data} />
     </div>
   );
 }

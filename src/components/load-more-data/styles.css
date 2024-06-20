@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 30%);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.Load-more-data-container {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product {
+  background-color: hsl(0, 0%, 95%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.product-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.product-rating {
+  color: #f1c40f;
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.product-description {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.LoadMoreButtonContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+/* Base styles for buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px; /* Padding to make the button look spacious */
+  border: none; /* No border for a cleaner look */
+  border-radius: 8px; /* Rounded corners for a modern feel */
+  background-color: #6200ea; /* Primary background color (purple) */
+  color: white; /* Text color */
+  font-size: 16px; /* Readable font size */
+  font-weight: 600; /* Bold text for emphasis */
+  text-transform: uppercase; /* Uppercase text for emphasis */
+  cursor: pointer; /* Pointer cursor to indicate clickability */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+/* Hover and focus effects */
+.btn:hover,
+.btn:focus {
+  background-color: #3700b3; /* Darken the background on hover/focus */
+  transform: translateY(-2px); /* Slight lift effect on hover/focus */
+}
+
+/* Active effect */
+.btn:active {
+  background-color: #290d8f; /* Even darker on active/click */
+  transform: translateY(0); /* Reset the lift effect on click */
+}
+
+/* Accessibility: outline for focus */
+.btn:focus {
+  outline: 2px solid #3700b3; /* Outline for accessibility */
+  outline-offset: 2px; /* Space between the outline and the button */
+}
+.btn:disabled {
+  background-color: #d3d3d3; /* Light gray for disabled state */
+  color: #a9a9a9; /* Darker gray text */
+  cursor: not-allowed; /* Indicate that clicking is not allowed */
+  opacity: 0.6; /* Reduce opacity to indicate inactivity */
+  pointer-events: none; /* Prevent any pointer interaction */
+  transform: none; /* No transformation on hover/active */
+}
+/* Responsive design: adjust padding and font size for smaller screens */
+@media (max-width: 480px) {
+  .btn {
+    padding: 8px 16px; /* Smaller padding for smaller screens */
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
