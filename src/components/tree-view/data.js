@@ -37,7 +37,39 @@ export const menus = [
           },
         ],
       },
-
+      {
+        id: 7,
+        label: "TicTacToe Game",
+        to: "TicTacToeGame",
+        children: [
+          {
+            id: 7.1,
+            label: "Front End",
+            to: "website link",
+            children: [
+              {
+                id: 7.2,
+                label: "Website link",
+                to: "https://tictactoe.mushari-alothman.uk",
+                children: [],
+              },
+            ],
+          },
+          {
+            id: 7.3,
+            label: "Back End",
+            to: "server",
+            children: [
+              {
+                id: 4.4,
+                label: "Server link",
+                to: "https://tictactoe-server.mushari-alothman.uk/",
+                children: [],
+              },
+            ],
+          },
+        ],
+      },
       {
         id: 4,
         label: "ToDoTasks",
