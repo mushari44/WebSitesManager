@@ -37,6 +37,7 @@ export const menus = [
           },
         ],
       },
+
       {
         id: 7,
         label: "TicTacToe Game",
@@ -61,7 +62,7 @@ export const menus = [
             to: "server",
             children: [
               {
-                id: 4.4,
+                id: 7.4,
                 label: "Server link",
                 to: "https://tictactoe-server.mushari-alothman.uk/",
                 children: [],
@@ -174,6 +175,12 @@ export const menus = [
             id: 6.3,
             label: "Load More Data",
             to: "/load-more-data",
+            children: [],
+          },
+          {
+            id: 6.4,
+            label: "github-profile-finder",
+            to: "/github-profile-finder",
             children: [],
           },
         ],

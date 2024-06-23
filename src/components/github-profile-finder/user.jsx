@@ -1,3 +1,5 @@
+import "./styles.css";
+
 export default function User({ user }) {
   const { avatar_url, name, login, bio, public_repos, html_url, created_at } =
     user;

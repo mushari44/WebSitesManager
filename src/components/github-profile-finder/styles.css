@@ -1,3 +1,6 @@
+#root {
+  background-color: rgb(217, 214, 214);
+}
 .github-profile-container {
   margin: 0 auto;
   width: 90%;
@@ -24,9 +27,12 @@
   cursor: pointer;
 }
 .user {
+  display: flex;
   padding: 15px;
   border-radius: 10px;
   border: 1px solid;
+  justify-content: center;
+      text-align: center;
 }
 .avatar {
   height: 150px;
