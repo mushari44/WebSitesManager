@@ -1,7 +1,8 @@
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, Form } from "react-router-dom";
 import TreeView from "./components/tree-view";
 import ScrollIndicator from "./components/scroll-indicator/";
 import LoadMoreData from "./components/load-more-data";
+import githubProfileFinder from "./components/github-profile-finder";
 function App() {
   return (
     <Router>
@@ -14,6 +15,10 @@ function App() {
           }
         />
         <Route path="/load-more-data" element={<LoadMoreData />} />
+        <Route
+          path="/github-profile-finder"
+          element={<githubProfileFinder />}
+        />
       </Routes>
     </Router>
   );
