@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route, Routes, Form } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Form } from "react-router-dom";
 import TreeView from "./components/tree-view";
 import ScrollIndicator from "./components/scroll-indicator/";
 import LoadMoreData from "./components/load-more-data";
