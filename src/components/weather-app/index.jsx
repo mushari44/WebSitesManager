@@ -9,7 +9,7 @@ export default function Weather() {
     setLoading(true);
     try {
       const response = await fetch(
-        `http://api.weatherapi.com/v1/current.json?key=3c70f0d7978c4d2192223519242606&q=${query}&aqi=no`
+        `https://api.weatherapi.com/v1/current.json?key=3c70f0d7978c4d2192223519242606&q=${query}&aqi=no`
       );
       const newData = await response.json();
       setWeatherData(newData);
