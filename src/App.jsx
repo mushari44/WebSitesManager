@@ -1,8 +1,9 @@
-import { HashRouter as Router, Route, Routes, Form } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import TreeView from "./components/tree-view";
 import ScrollIndicator from "./components/scroll-indicator/";
 import LoadMoreData from "./components/load-more-data";
 import GithubProfileFinder from "./components/github-profile-finder";
+import Weather from "./components/weather-app";
 function App() {
   return (
     <Router>
@@ -19,6 +20,7 @@ function App() {
           path="/github-profile-finder"
           element={<GithubProfileFinder />}
         />
+        <Route path="/weather-app" element={<Weather />} />
       </Routes>
     </Router>
   );

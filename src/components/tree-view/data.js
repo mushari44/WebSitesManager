@@ -183,20 +183,11 @@ export const menus = [
             to: "/github-profile-finder",
             children: [],
           },
-        ],
-      },
-      {
-        id: 6.5,
-        label: "api movie Search",
-        to: "Front End",
-        children: [
           {
-            id: 6.6,
-            label: "Front End",
-            to: "https://mushari44.github.io/ApiSearchMovie/",
-            children: [
-              { id: 5.7, label: "Website link ", to: "", children: [] },
-            ],
+            id: 6.5,
+            label: "weather-app",
+            to: "/weather-app",
+            children: [],
           },
         ],
       },
