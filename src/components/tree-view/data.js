@@ -51,7 +51,7 @@ export const menus = [
               {
                 id: 8.2,
                 label: "Website link",
-                to: "https://food-recipes.mushari-alothman.uk",
+                to: "food-recipes.mushari-alothman.uk",
                 children: [],
               },
             ],
