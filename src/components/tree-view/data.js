@@ -39,6 +39,39 @@ export const menus = [
       },
 
       {
+        id: 8,
+        label: "Food Recipe",
+        to: "Food Recipe",
+        children: [
+          {
+            id: 8.1,
+            label: "Front End",
+            to: "website link",
+            children: [
+              {
+                id: 8.2,
+                label: "Website link",
+                to: "https://food-recipe.mushari-alothman.uk",
+                children: [],
+              },
+            ],
+          },
+          {
+            id: 8.3,
+            label: "Back End",
+            to: "server",
+            children: [
+              {
+                id: 8.4,
+                label: "Server link",
+                to: "https://https://food-recipe-server1.vercel.app/Favorites",
+                children: [],
+              },
+            ],
+          },
+        ],
+      },
+      {
         id: 7,
         label: "TicTacToe Game",
         to: "TicTacToeGame",
