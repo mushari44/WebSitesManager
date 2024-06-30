@@ -51,7 +51,7 @@ export const menus = [
               {
                 id: 8.2,
                 label: "Website link",
-                to: "food-recipes.mushari-alothman.uk",
+                to: "https://food-recipe.mushari-alothman.uk",
                 children: [],
               },
             ],
@@ -64,7 +64,7 @@ export const menus = [
               {
                 id: 8.4,
                 label: "Server link",
-                to: "https://https://food-recipe-server1.vercel.app/Favorites",
+                to: "https://food-recipe-server1.vercel.app/Favorites",
                 children: [],
               },
             ],
