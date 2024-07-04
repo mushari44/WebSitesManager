@@ -5,6 +5,39 @@ export const menus = [
     to: "/MERN stack",
     children: [
       {
+        id: 9,
+        label: "shopping app",
+        to: "shopping app",
+        children: [
+          {
+            id: 9.1,
+            label: "Front End",
+            to: "Website link",
+            children: [
+              {
+                id: 9.2,
+                label: "Website link",
+                to: "https://shopping-cart.mushari-alothman.uk",
+                children: [],
+              },
+            ],
+          },
+          {
+            id: 9.5,
+            label: "Back End",
+            to: "Server link",
+            children: [
+              {
+                id: 9.6,
+                label: "Server link",
+                to: "https://shopping-cart-server.mushari-alothman.uk",
+                children: [],
+              },
+            ],
+          },
+        ],
+      },
+      {
         id: 3,
         label: "Students information's",
         to: "Students information's",
