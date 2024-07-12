@@ -5,9 +5,42 @@ export const menus = [
     to: "/MERN stack",
     children: [
       {
-        id: 10,
+        id: 11,
         label: "blog app",
         to: "blog app",
+        children: [
+          {
+            id: 11.1,
+            label: "Front End",
+            to: "Website link",
+            children: [
+              {
+                id: 11.2,
+                label: "Website link",
+                to: "https://blog-app.mushari-alothman.uk",
+                children: [],
+              },
+            ],
+          },
+          {
+            id: 11.5,
+            label: "Back End",
+            to: "Server link",
+            children: [
+              {
+                id: 11.6,
+                label: "Server link",
+                to: "https://blog--server-f3dbd17cdd52.herokuapp.com/api/blogs",
+                children: [],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: 10,
+        label: "expense Tracker app",
+        to: "expense Tracker app",
         children: [
           {
             id: 10.1,
@@ -17,7 +50,7 @@ export const menus = [
               {
                 id: 10.2,
                 label: "Website link",
-                to: "https://blog-app.mushari-alothman.uk",
+                to: "https://expense-tracker-app.mushari-alothman.uk/",
                 children: [],
               },
             ],
@@ -30,7 +63,7 @@ export const menus = [
               {
                 id: 10.6,
                 label: "Server link",
-                to: "https://blog--server-f3dbd17cdd52.herokuapp.com/api/blogs",
+                to: "https://expense-tracker-server.mushari-alothman.uk/",
                 children: [],
               },
             ],
