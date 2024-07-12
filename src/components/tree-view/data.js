@@ -5,6 +5,39 @@ export const menus = [
     to: "/MERN stack",
     children: [
       {
+        id: 10,
+        label: "blog app",
+        to: "blog app",
+        children: [
+          {
+            id: 10.1,
+            label: "Front End",
+            to: "Website link",
+            children: [
+              {
+                id: 10.2,
+                label: "Website link",
+                to: "https://blog-app.mushari-alothman.uk",
+                children: [],
+              },
+            ],
+          },
+          {
+            id: 10.5,
+            label: "Back End",
+            to: "Server link",
+            children: [
+              {
+                id: 10.6,
+                label: "Server link",
+                to: "https://blog--server-f3dbd17cdd52.herokuapp.com/api/blogs",
+                children: [],
+              },
+            ],
+          },
+        ],
+      },
+      {
         id: 9,
         label: "shopping app",
         to: "shopping app",
@@ -253,6 +286,12 @@ export const menus = [
             id: 6.5,
             label: "weather-app",
             to: "/weather-app",
+            children: [],
+          },
+          {
+            id: 6.5,
+            label: "blog-app",
+            to: "/blog-app",
             children: [],
           },
         ],
